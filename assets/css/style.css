@@ -4,3 +4,44 @@
     --LightGray: #D4D4D4;
     --LightPink: #FFB3FF;
 }
+
+header {
+    background-color: var(--DarkGray);
+    color: var(--LightPink)
+}
+
+#background {
+    background-color: var(--DarkerGray);
+}
+
+h2 {
+    color: var(--LightPink);
+}
+
+.form-control {
+    background-color: var(--LightGray);
+    color: var(--DarkerGray);
+}
+
+#search-button {
+    background-color: var(--LightPink);
+    color: var(--DarkerGray);
+}
+
+#city-history {
+    background-color: var(--LightGray);
+    color: var(--DarkerGray);
+}
+
+#chosen-city {
+    background-color: var(--DarkGray);
+}
+
+#city-forecast {
+    background-color: var(--DarkGray);
+}
+
+.forecast-item {
+    background-color: var(--LightGray);
+    color: var(--DarkerGray);
+}

@@ -60,7 +60,7 @@ $(document).ready(function () {
     function displayCurrentWeather(data) {
         $('#chosen-city').html(`
             <h2>${data.name}</h2>
-            <p>Date: ${dayjs().format('DD/MM/YYYY')}</p>
+            <p>Date: ${dayjs().format('MM/DD/YYYY')}</p>
             <p>Temperature: ${data.main.temp} °F</p>
             <p>Humidity: ${data.main.humidity}%</p>
             <p>Wind Speed: ${data.wind.speed} m/s</p>
@@ -78,9 +78,9 @@ $(document).ready(function () {
             const forecast = data.list[i];
             const date = new Date(forecast.dt_txt);
             $('#city-forecast').append(`
-                <div class="forecast-item">
-                    <p>Date: ${dayjs(date).format('DD/MM/YYYY')}</p>
-                    <p>Temperature: ${forecast.main.temp} °F</p>
+                <div class="forecast-item col-2 p-3 mb-3  ">
+                    <h5 class="text-center">${dayjs(date).format('MM/DD/YYYY')}</h5>
+                    <p>Temperature: ${forecast.main.temp}°F</p>
                     <p>Humidity: ${forecast.main.humidity}%</p>
                     <p>Wind Speed: ${forecast.wind.speed} m/s</p>
                 </div>
