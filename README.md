@@ -16,7 +16,7 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Usage
 
 Deployed site URL:
-<!-- URL -->
+https://jskelly8.github.io/weather-dashboard/
 
 Screenshots of deployed site:
 ![Screenshot of Weather Dashboard landing page](./assets/images/WeatherClip1.png)
