@@ -12,6 +12,7 @@ header {
 
 #background {
     background-color: var(--DarkerGray);
+    min-height: 100vh;
 }
 
 h2 {
@@ -35,6 +36,7 @@ h2 {
 
 #chosen-city {
     background-color: var(--DarkGray);
+    justify-content: center;
 }
 
 #city-forecast {
@@ -44,4 +46,8 @@ h2 {
 .forecast-item {
     background-color: var(--LightGray);
     color: var(--DarkerGray);
+}
+
+.forecastIcon {
+    padding-left: 45px;
 }

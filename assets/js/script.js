@@ -60,6 +60,7 @@ $(document).ready(function () {
     function displayCurrentWeather(data) {
         $('#chosen-city').html(`
             <h2>${data.name}</h2>
+            <img src="https://openweathermap.org/img/w/${data.weather[0].icon}.png" alt="Weather Icon" class="todayIcon">
             <p>Date: ${dayjs().format('MM/DD/YYYY')}</p>
             <p>Temperature: ${data.main.temp} °F</p>
             <p>Humidity: ${data.main.humidity}%</p>
@@ -80,6 +81,7 @@ $(document).ready(function () {
             $('#city-forecast').append(`
                 <div class="forecast-item col-2 p-3 mb-3  ">
                     <h5 class="text-center">${dayjs(date).format('MM/DD/YYYY')}</h5>
+                    <img src="https://openweathermap.org/img/w/${forecast.weather[0].icon}.png" alt="Weather Icon" class="forecastIcon">
                     <p>Temperature: ${forecast.main.temp}°F</p>
                     <p>Humidity: ${forecast.main.humidity}%</p>
                     <p>Wind Speed: ${forecast.wind.speed} m/s</p>
