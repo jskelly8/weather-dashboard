@@ -6,13 +6,6 @@ Challenge 6 -- Server-Side APIs: Weather Dashboard
 
 This project was built so that any user can search for weather in a city and be presented with the current weather, along with a projected 5 day forecast for the coming days. The design was built using bootstrap, and is responsive, but only down to tablet size and is not recommended for mobile use (yet). Throughout this project, I learned how to use server-side API's, and control the parameters & data pulled from those APIs in order to display chosen information. 
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 ## Usage
 
 Deployed site URL:
